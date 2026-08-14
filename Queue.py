@@ -1,5 +1,5 @@
 class Queue:
-    """Queue is data structure which works or principe FIFO (Firs in first out)"""
+    """Queue is data structure which works on principe FIFO (Firs in first out)"""
 
     def __init__(self, storage=None):
         if storage is not None and not isinstance(storage, list):
